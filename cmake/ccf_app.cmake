@@ -42,6 +42,7 @@ if(LVI_MITIGATIONS)
   set(OE_TARGET_ENCLAVE_AND_STD
       openenclave::oeenclave-lvi-cfg openenclave::oelibcxx-lvi-cfg
       openenclave::oelibc-lvi-cfg
+      openenclave::mbedcrypto_static-lvi-cfg openenclave::mbedtls-lvi-cfg openenclave::oecryptombedtls-lvi-cfg
   )
   set(OE_TARGET_ENCLAVE_CORE_LIBS
       openenclave::oeenclave-lvi-cfg openenclave::oesnmalloc-lvi-cfg
